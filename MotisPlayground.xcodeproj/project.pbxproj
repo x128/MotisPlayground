@@ -7,25 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032E5CF81FB4E87A00AE53C5 /* Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 032E5CF71FB4E87A00AE53C5 /* Networking.m */; };
+		03510A341FB4F69A002F53DA /* TeamListDataSourceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 03510A331FB4F69A002F53DA /* TeamListDataSourceImpl.m */; };
+		03510A381FB4F7FC002F53DA /* ApiUrlFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03510A371FB4F7FC002F53DA /* ApiUrlFactory.m */; };
+		03510A3E1FB50382002F53DA /* DataSourceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03510A3D1FB50382002F53DA /* DataSourceFactory.m */; };
+		03510A411FB515BD002F53DA /* TeamListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03510A401FB515BD002F53DA /* TeamListCell.m */; };
+		03510A441FB516F3002F53DA /* TeamListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03510A431FB516F3002F53DA /* TeamListModel.m */; };
+		03510A481FB51E3C002F53DA /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 03510A471FB51E3C002F53DA /* Settings.m */; };
+		03510A4B1FB5254A002F53DA /* MappedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 03510A4A1FB5254A002F53DA /* MappedObject.m */; };
+		03510A531FB5676C002F53DA /* SyntaxSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 03510A521FB5676C002F53DA /* SyntaxSugar.m */; };
 		0377A3D41FB4E68200281840 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377A3D31FB4E68200281840 /* AppDelegate.m */; };
-		0377A3D71FB4E68200281840 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377A3D61FB4E68200281840 /* ViewController.m */; };
-		0377A3DA1FB4E68200281840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0377A3D81FB4E68200281840 /* Main.storyboard */; };
+		0377A3D71FB4E68200281840 /* TeamListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377A3D61FB4E68200281840 /* TeamListViewController.m */; };
 		0377A3DC1FB4E68200281840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0377A3DB1FB4E68200281840 /* Assets.xcassets */; };
-		0377A3DF1FB4E68200281840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0377A3DD1FB4E68200281840 /* LaunchScreen.storyboard */; };
 		0377A3E21FB4E68200281840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0377A3E11FB4E68200281840 /* main.m */; };
+		04165F341FB5AAAC00F6ED88 /* StatefulViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04165F331FB5AAAC00F6ED88 /* StatefulViewController.m */; };
+		165C10C2DF19498CB6A33655 /* libPods-MotisPlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7923ABCB114DEA56F5A3CD /* libPods-MotisPlayground.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		032E5CF61FB4E87A00AE53C5 /* Networking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
+		032E5CF71FB4E87A00AE53C5 /* Networking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Networking.m; sourceTree = "<group>"; };
+		03510A321FB4F69A002F53DA /* TeamListDataSourceImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeamListDataSourceImpl.h; sourceTree = "<group>"; };
+		03510A331FB4F69A002F53DA /* TeamListDataSourceImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamListDataSourceImpl.m; sourceTree = "<group>"; };
+		03510A351FB4F795002F53DA /* TeamListDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeamListDataSource.h; sourceTree = "<group>"; };
+		03510A361FB4F7FC002F53DA /* ApiUrlFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiUrlFactory.h; sourceTree = "<group>"; };
+		03510A371FB4F7FC002F53DA /* ApiUrlFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiUrlFactory.m; sourceTree = "<group>"; };
+		03510A3C1FB50382002F53DA /* DataSourceFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSourceFactory.h; sourceTree = "<group>"; };
+		03510A3D1FB50382002F53DA /* DataSourceFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataSourceFactory.m; sourceTree = "<group>"; };
+		03510A3F1FB515BD002F53DA /* TeamListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeamListCell.h; sourceTree = "<group>"; };
+		03510A401FB515BD002F53DA /* TeamListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamListCell.m; sourceTree = "<group>"; };
+		03510A421FB516F3002F53DA /* TeamListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeamListModel.h; sourceTree = "<group>"; };
+		03510A431FB516F3002F53DA /* TeamListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamListModel.m; sourceTree = "<group>"; };
+		03510A461FB51E3C002F53DA /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		03510A471FB51E3C002F53DA /* Settings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		03510A491FB5254A002F53DA /* MappedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MappedObject.h; sourceTree = "<group>"; };
+		03510A4A1FB5254A002F53DA /* MappedObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MappedObject.m; sourceTree = "<group>"; };
+		03510A4D1FB52B8D002F53DA /* DisplayState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayState.h; sourceTree = "<group>"; };
+		03510A511FB5676C002F53DA /* SyntaxSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyntaxSugar.h; sourceTree = "<group>"; };
+		03510A521FB5676C002F53DA /* SyntaxSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyntaxSugar.m; sourceTree = "<group>"; };
 		0377A3CF1FB4E68200281840 /* MotisPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotisPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0377A3D21FB4E68200281840 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0377A3D31FB4E68200281840 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0377A3D51FB4E68200281840 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0377A3D61FB4E68200281840 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0377A3D91FB4E68200281840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0377A3D51FB4E68200281840 /* TeamListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeamListViewController.h; sourceTree = "<group>"; };
+		0377A3D61FB4E68200281840 /* TeamListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamListViewController.m; sourceTree = "<group>"; };
 		0377A3DB1FB4E68200281840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0377A3DE1FB4E68200281840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0377A3E01FB4E68200281840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0377A3E11FB4E68200281840 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04165F321FB5AAAC00F6ED88 /* StatefulViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatefulViewController.h; sourceTree = "<group>"; };
+		04165F331FB5AAAC00F6ED88 /* StatefulViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatefulViewController.m; sourceTree = "<group>"; };
+		6C7923ABCB114DEA56F5A3CD /* libPods-MotisPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MotisPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A961112CC5ED2A26475C51C /* Pods-MotisPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotisPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MotisPlayground/Pods-MotisPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		FE229140807E236D30DADBF2 /* Pods-MotisPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotisPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotisPlayground/Pods-MotisPlayground.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +65,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				165C10C2DF19498CB6A33655 /* libPods-MotisPlayground.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03510A391FB4F808002F53DA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				032E5CF61FB4E87A00AE53C5 /* Networking.h */,
+				032E5CF71FB4E87A00AE53C5 /* Networking.m */,
+				03510A361FB4F7FC002F53DA /* ApiUrlFactory.h */,
+				03510A371FB4F7FC002F53DA /* ApiUrlFactory.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		03510A3A1FB4F821002F53DA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				04165F321FB5AAAC00F6ED88 /* StatefulViewController.h */,
+				04165F331FB5AAAC00F6ED88 /* StatefulViewController.m */,
+				0377A3D51FB4E68200281840 /* TeamListViewController.h */,
+				0377A3D61FB4E68200281840 /* TeamListViewController.m */,
+				03510A3F1FB515BD002F53DA /* TeamListCell.h */,
+				03510A401FB515BD002F53DA /* TeamListCell.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		03510A3B1FB4F829002F53DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03510A3C1FB50382002F53DA /* DataSourceFactory.h */,
+				03510A3D1FB50382002F53DA /* DataSourceFactory.m */,
+				03510A351FB4F795002F53DA /* TeamListDataSource.h */,
+				03510A321FB4F69A002F53DA /* TeamListDataSourceImpl.h */,
+				03510A331FB4F69A002F53DA /* TeamListDataSourceImpl.m */,
+				03510A421FB516F3002F53DA /* TeamListModel.h */,
+				03510A431FB516F3002F53DA /* TeamListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03510A4C1FB52583002F53DA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				03510A491FB5254A002F53DA /* MappedObject.h */,
+				03510A4A1FB5254A002F53DA /* MappedObject.m */,
+				03510A4D1FB52B8D002F53DA /* DisplayState.h */,
+				03510A511FB5676C002F53DA /* SyntaxSugar.h */,
+				03510A521FB5676C002F53DA /* SyntaxSugar.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		0377A3C61FB4E68200281840 = {
 			isa = PBXGroup;
 			children = (
 				0377A3D11FB4E68200281840 /* MotisPlayground */,
 				0377A3D01FB4E68200281840 /* Products */,
+				E5DFF71C3E8D52CE342AAF2B /* Pods */,
+				1FE54C7F06128EF0E2166209 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +143,36 @@
 		0377A3D11FB4E68200281840 /* MotisPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				03510A461FB51E3C002F53DA /* Settings.h */,
+				03510A471FB51E3C002F53DA /* Settings.m */,
 				0377A3D21FB4E68200281840 /* AppDelegate.h */,
 				0377A3D31FB4E68200281840 /* AppDelegate.m */,
-				0377A3D51FB4E68200281840 /* ViewController.h */,
-				0377A3D61FB4E68200281840 /* ViewController.m */,
-				0377A3D81FB4E68200281840 /* Main.storyboard */,
+				03510A3A1FB4F821002F53DA /* UI */,
+				03510A3B1FB4F829002F53DA /* Model */,
+				03510A391FB4F808002F53DA /* Network */,
+				03510A4C1FB52583002F53DA /* Helpers */,
 				0377A3DB1FB4E68200281840 /* Assets.xcassets */,
-				0377A3DD1FB4E68200281840 /* LaunchScreen.storyboard */,
 				0377A3E01FB4E68200281840 /* Info.plist */,
 				0377A3E11FB4E68200281840 /* main.m */,
 			);
 			path = MotisPlayground;
+			sourceTree = "<group>";
+		};
+		1FE54C7F06128EF0E2166209 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C7923ABCB114DEA56F5A3CD /* libPods-MotisPlayground.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5DFF71C3E8D52CE342AAF2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A961112CC5ED2A26475C51C /* Pods-MotisPlayground.debug.xcconfig */,
+				FE229140807E236D30DADBF2 /* Pods-MotisPlayground.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0377A3E51FB4E68200281840 /* Build configuration list for PBXNativeTarget "MotisPlayground" */;
 			buildPhases = (
+				D7D2CEAF1C84E66315BC7350 /* [CP] Check Pods Manifest.lock */,
 				0377A3CB1FB4E68200281840 /* Sources */,
 				0377A3CC1FB4E68200281840 /* Frameworks */,
 				0377A3CD1FB4E68200281840 /* Resources */,
+				47290E68EC3B8AB3332C9CA0 /* [CP] Embed Pods Frameworks */,
+				6530F6EB3105698040FA4B09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,45 +236,85 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0377A3DF1FB4E68200281840 /* LaunchScreen.storyboard in Resources */,
 				0377A3DC1FB4E68200281840 /* Assets.xcassets in Resources */,
-				0377A3DA1FB4E68200281840 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47290E68EC3B8AB3332C9CA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MotisPlayground/Pods-MotisPlayground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6530F6EB3105698040FA4B09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MotisPlayground/Pods-MotisPlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D2CEAF1C84E66315BC7350 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MotisPlayground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0377A3CB1FB4E68200281840 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0377A3D71FB4E68200281840 /* ViewController.m in Sources */,
+				0377A3D71FB4E68200281840 /* TeamListViewController.m in Sources */,
+				03510A381FB4F7FC002F53DA /* ApiUrlFactory.m in Sources */,
+				03510A481FB51E3C002F53DA /* Settings.m in Sources */,
+				03510A3E1FB50382002F53DA /* DataSourceFactory.m in Sources */,
+				04165F341FB5AAAC00F6ED88 /* StatefulViewController.m in Sources */,
+				03510A531FB5676C002F53DA /* SyntaxSugar.m in Sources */,
+				03510A341FB4F69A002F53DA /* TeamListDataSourceImpl.m in Sources */,
+				03510A411FB515BD002F53DA /* TeamListCell.m in Sources */,
 				0377A3E21FB4E68200281840 /* main.m in Sources */,
 				0377A3D41FB4E68200281840 /* AppDelegate.m in Sources */,
+				03510A4B1FB5254A002F53DA /* MappedObject.m in Sources */,
+				03510A441FB516F3002F53DA /* TeamListModel.m in Sources */,
+				032E5CF81FB4E87A00AE53C5 /* Networking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0377A3D81FB4E68200281840 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0377A3D91FB4E68200281840 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0377A3DD1FB4E68200281840 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0377A3DE1FB4E68200281840 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0377A3E31FB4E68200281840 /* Debug */ = {
@@ -276,11 +423,13 @@
 		};
 		0377A3E61FB4E68200281840 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A961112CC5ED2A26475C51C /* Pods-MotisPlayground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2VYHE3V7LJ;
 				INFOPLIST_FILE = MotisPlayground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.x128.MotisPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,11 +439,13 @@
 		};
 		0377A3E71FB4E68200281840 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE229140807E236D30DADBF2 /* Pods-MotisPlayground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2VYHE3V7LJ;
 				INFOPLIST_FILE = MotisPlayground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.x128.MotisPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";

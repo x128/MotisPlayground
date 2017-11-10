@@ -7,19 +7,36 @@
 //
 
 #import "AppDelegate.h"
+#import "DataSourceFactory.h"
+#import "TeamListViewController.h"
 
 @interface AppDelegate ()
 
 @end
 
-@implementation AppDelegate
-
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+@implementation AppDelegate {
+    DataSourceFactory *_Nonnull m_dataSourceFactory;
 }
 
+- (instancetype)init {
+    self = [super init];
+    if (self != nil) {
+        m_dataSourceFactory = [DataSourceFactory new];
+    }
+    return self;
+}
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    self.window = [[UIWindow alloc] initWithFrame:screenBounds];
+
+    id<TeamListDataSource> ds = [m_dataSourceFactory teamListDataSource];
+    TeamListViewController *vc = [[TeamListViewController alloc] initWithDataSource:ds];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self.window setRootViewController:nav];
+    [self.window makeKeyAndVisible];
+    return YES;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
